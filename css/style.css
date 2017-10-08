@@ -1,0 +1,59 @@
+header{
+  text-align: center;
+  font-size: 30px;
+  background-color: #9721c7 ;
+  padding: 100px
+}
+nav {
+  display: inline-block;
+  width: 180px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+section {
+  display: inline-block;
+  width: 900px;
+  float: left;
+}
+aside {
+  float: left;
+
+}
+
+section > div {
+  margin-top: 20px;
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  float: left;
+}
+
+section > div .card {
+  margin: 20px;
+  height: calc(100% - 40px);
+  background-image: url("../images/IMG_5081.JPG");
+  background-size: cover;
+  opacity: 0.5;
+  color: initial;
+  margin-top: 0px;
+
+}
+
+.store_location{
+  padding-top: 60px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.store_name{
+  padding-top: 60px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}

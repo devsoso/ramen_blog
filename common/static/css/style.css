@@ -32,7 +32,7 @@ section > div {
 section > div .card {
   margin: 20px;
   height: calc(100% - 40px);
-  background-image: url("../images/IMG_5081.JPG");
+  background-image: url("/static/images/IMG_5081.JPG");
   background-size: cover;
   opacity: 0.5;
   color: initial;

@@ -1,8 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from app.config import Config
 
 app = Flask(__name__)
+app.config.from_object(Config)
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+db = SQLAlchemy(app)
 
+from app import routes

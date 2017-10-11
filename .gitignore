@@ -149,3 +149,4 @@ tags
 
 # End of https://www.gitignore.io/api/python,flask,osx,vim
 *.db
+node_modules
